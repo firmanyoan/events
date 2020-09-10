@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="mb-3">
-                <a href="{{route('activity.create')}}" class="btn btn-outline-primary">Tambah Kegiatan</a>
+                <a href="http:\\" class="btn btn-outline-primary"></a>
             </div>
 
             <div class="card border-0 shadow">

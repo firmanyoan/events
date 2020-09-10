@@ -24,3 +24,8 @@ Route::group(['prefix'=> 'activity'], function(){
 
     Route::get('create','ActivityController@create')->name('activity.create');
 });
+
+Route::group(['prefix' => 'users'], function(){
+    Route::get('index', 'User\UserController@index')->name('users');
+
+}); 
