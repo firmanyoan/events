@@ -17,7 +17,7 @@
                             <a href="{{route('activity')}}" class="nav-link">Master Kegiatan</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Master Pendaftaran</a>
+                            <a href="{{route('registers')}}" class="nav-link">Master Pendaftaran</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{route('users')}}" class="nav-link">User</a>
@@ -37,7 +37,7 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown">
+                            <li class="nav-]item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
